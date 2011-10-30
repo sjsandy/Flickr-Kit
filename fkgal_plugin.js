@@ -22,7 +22,7 @@ function fkgal() {
  						ed.dom.remove(ed.dom.select('span#caret_pos_holder')[0]); //remove the span
 					}
                 },
-                image: url + "/fk_gal.png"
+                image: url + "/photography.png"
             });
         },
 

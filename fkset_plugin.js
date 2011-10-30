@@ -9,7 +9,7 @@ function fkset() {
 
         init : function(ed, url){
             ed.addButton('fkset', {
-                title : 'Insert Flickr Image',
+                title : 'Insert Flickr Sets',
                 onclick : function() {
                     var prompt_text = prompt("Flickr Set", "Set page url");
 					var caret = " ";
@@ -22,7 +22,7 @@ function fkset() {
  						ed.dom.remove(ed.dom.select('span#caret_pos_holder')[0]); //remove the span
 					}
                 },
-                image: url + "/fk_set.png"
+                image: url + "/graphic-design.png"
             });
         },
 
